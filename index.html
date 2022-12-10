@@ -5,38 +5,112 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
   <!-- Header section -->
-  <header class="main-header">
-    <div class="main-header__brand">
-      <a href="index.html">
-        <img src="img/logo2.png" alt="logo">
-      </a>
-    </div>
-    <nav class="main-navigation">
-      <ul class="main-navigation__items">
-        <li class="main-navigation__item"><a href="#">Main</a></li>
-        <li class="main-navigation__item"><a href="#">About Me</a></li>
-        <li class="main-navigation__item"><a href="#">Services</a></li>
-        <li class="main-navigation__item"><a href="#">Clients</a></li>
-        <li class="main-navigation__item"><a href="#">Portfolio</a></li>
-        <li class="main-navigation__item"><a href="#">Blog</a></li>
-        <li class="main-navigation__item"><a href="#">Partners</a></li>
-      </ul>
-    </nav>
-  </header>
+  <div class="container">
+    <header class="main-header">
+      <div class="main-header__brand">
+        <a href="index.html">
+          <img src="img/logo.png" alt="logo">
+        </a>
+      </div>
+      <nav class="main-navigation">
+        <ul class="main-navigation__items">
+          <li class="main-navigation__item active"><a href="#">Main</a></li>
+          <li class="main-navigation__item"><a href="#">About Me</a></li>
+          <li class="main-navigation__item"><a href="#">Services</a></li>
+          <li class="main-navigation__item"><a href="#">Clients</a></li>
+          <li class="main-navigation__item"><a href="#">Portfolio</a></li>
+          <li class="main-navigation__item"><a href="#">Blog</a></li>
+          <li class="main-navigation__item"><a href="#">Partners</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
   <!-- /Header section -->
 
   <!-- Main Section -->
-  <section id="main-section">
-    <h1>Main Section</h1>
-  </section>
+    <div class="container">
+      <section id="main-section" class="main-section">
+        <div class="main-section__info">
+          <h4 class="main-section__welcome to-uppercase">Hi there !</h4>
+          <h1 class="main-section__introduction to-uppercase">I am a Azamat</h1>
+          <h3 class="main-section__position to-uppercase">I am Senior Full Stack Developer</h3>
+          <div class="main-section__social-networks">
+            <a href="https://t.me/KHAYITBOEV AZAMAT">
+              <i class="fa-brands fa-telegram"></i>
+            </a>
+
+            <a href="https://instagram/AZAMAT">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="https://youtube/AZAMAT">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+
+            <a href="https://twitter/AZAMAT">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+
+          </div>
+          <button type="botton" class="main-section__action to-uppercase">
+          See my works
+          </button>
+        </div>
+
+        <div class="main-seciton__img">
+          <img class="about-me__image" src="img/home-right.png" alt="main img">
+        </div>
+      </section>
+    </div>
   <!-- /Main Section -->
 
+  <!-- Statistics -->
+    <div class="container">
+      <section id="statistics" class="statistics">
+        <div class="statistics__item">
+          <h3 class="statistics__number">
+            15k+
+          </h3>
+          <p class="statistics__title">Happy Customer</p>
+        </div>
+
+        <div class="statistics__item">
+          <h3 class="statistics__number">
+            12k+
+          </h3>
+          <p class="statistics__title">Ticket Solved</p>
+        </div>
+
+        <div class="statistics__item">
+          <h3 class="statistics__number">
+            9/10
+          </h3>
+          <p class="statistics__title">Average Rating</p>
+        </div>
+      </section>
+    </div>
+  <!-- /Statistics -->
+
   <!-- About me section -->
-  <section id="about-me">
-    <h1>About me</h1>
+  <section id="about-me" class="about-me">
+    <div class="about-me__image">
+      <img src="./img/about-us.png" alt="about me image">
+    </div>
+
+    <div class="about-me__info">
+      <h5 class="section-subtitle">About me</h5>
+      <h3 class="section-title">
+        Senior Programmer
+      </h3>
+      <p class="about-me__description">I am a Azamat Khayitboev and Iam 23 years old I have more than 2 years programming skills.</p>
+      <button type="button" class="button to-uppercase">Watch CV</button>
+    </div>
   </section>
   <!-- /About me section -->
 
